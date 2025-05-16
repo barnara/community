@@ -1,0 +1,845 @@
+{
+	"pages": [ {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告详情"
+		}
+	}
+	,{
+		"path": "pages/jumin/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "居民"
+		}
+	},{
+		"path": "pages/jumin/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "居民"
+		}
+	}
+	,{
+		"path": "pages/jumin/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "居民"
+		}
+	}
+	,{
+		"path": "pages/qishou/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "骑手"
+		}
+	},{
+		"path": "pages/qishou/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "骑手"
+		}
+	}
+	,{
+		"path": "pages/qishou/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "骑手"
+		}
+	}
+	,{
+		"path": "pages/wuyerenyuan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "物业人员"
+		}
+	},{
+		"path": "pages/wuyerenyuan/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "物业人员"
+		}
+	}
+	,{
+		"path": "pages/wuyerenyuan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "物业人员"
+		}
+	}
+	,{
+		"path": "pages/louyumingcheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "楼宇名称"
+		}
+	},{
+		"path": "pages/louyumingcheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "楼宇名称"
+		}
+	}
+	,{
+		"path": "pages/louyumingcheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "楼宇名称"
+		}
+	}
+	,{
+		"path": "pages/danyuanhao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "单元号"
+		}
+	},{
+		"path": "pages/danyuanhao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "单元号"
+		}
+	}
+	,{
+		"path": "pages/danyuanhao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "单元号"
+		}
+	}
+	,{
+		"path": "pages/jiaofeitongzhi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "缴费通知"
+		}
+	},{
+		"path": "pages/jiaofeitongzhi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "缴费通知"
+		}
+	}
+	,{
+		"path": "pages/jiaofeitongzhi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "缴费通知"
+		}
+	}
+	,{
+		"path": "pages/shequhuodong/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动"
+		}
+	},{
+		"path": "pages/shequhuodong/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动"
+		}
+	}
+	,{
+		"path": "pages/shequhuodong/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动"
+		}
+	}
+	,{
+		"path": "pages/huodongbaoming/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "活动报名"
+		}
+	},{
+		"path": "pages/huodongbaoming/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "活动报名"
+		}
+	}
+	,{
+		"path": "pages/huodongbaoming/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "活动报名"
+		}
+	}
+	,{
+		"path": "pages/zhoubianfuwu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务"
+		}
+	},{
+		"path": "pages/zhoubianfuwu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务"
+		}
+	}
+	,{
+		"path": "pages/zhoubianfuwu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务"
+		}
+	}
+	,{
+		"path": "pages/changdileixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地类型"
+		}
+	},{
+		"path": "pages/changdileixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地类型"
+		}
+	}
+	,{
+		"path": "pages/changdileixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地类型"
+		}
+	}
+	,{
+		"path": "pages/changdixinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息"
+		}
+	},{
+		"path": "pages/changdixinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息"
+		}
+	}
+	,{
+		"path": "pages/changdixinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息"
+		}
+	}
+	,{
+		"path": "pages/changdiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地预约"
+		}
+	},{
+		"path": "pages/changdiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地预约"
+		}
+	}
+	,{
+		"path": "pages/changdiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地预约"
+		}
+	}
+	,{
+		"path": "pages/fangwudengji/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "房屋登记"
+		}
+	},{
+		"path": "pages/fangwudengji/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "房屋登记"
+		}
+	}
+	,{
+		"path": "pages/fangwudengji/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "房屋登记"
+		}
+	}
+	,{
+		"path": "pages/baoxiuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报修信息"
+		}
+	},{
+		"path": "pages/baoxiuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报修信息"
+		}
+	}
+	,{
+		"path": "pages/baoxiuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报修信息"
+		}
+	}
+	,{
+		"path": "pages/cheweidengji/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "车位登记"
+		}
+	},{
+		"path": "pages/cheweidengji/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "车位登记"
+		}
+	}
+	,{
+		"path": "pages/cheweidengji/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "车位登记"
+		}
+	}
+	,{
+		"path": "pages/weixiudengji/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维修登记"
+		}
+	},{
+		"path": "pages/weixiudengji/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维修登记"
+		}
+	}
+	,{
+		"path": "pages/weixiudengji/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维修登记"
+		}
+	}
+	,{
+		"path": "pages/tousufuwu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "投诉服务"
+		}
+	},{
+		"path": "pages/tousufuwu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "投诉服务"
+		}
+	}
+	,{
+		"path": "pages/tousufuwu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "投诉服务"
+		}
+	}
+	,{
+		"path": "pages/quyushenqing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "区域申请"
+		}
+	},{
+		"path": "pages/quyushenqing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "区域申请"
+		}
+	}
+	,{
+		"path": "pages/quyushenqing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "区域申请"
+		}
+	}
+	,{
+		"path": "pages/peisongjilu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "配送记录"
+		}
+	},{
+		"path": "pages/peisongjilu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "配送记录"
+		}
+	}
+	,{
+		"path": "pages/peisongjilu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "配送记录"
+		}
+	}
+	,{
+		"path": "pages/chatmessage/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "消息表"
+		}
+	},{
+		"path": "pages/chatmessage/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "消息表"
+		}
+	}
+	,{
+		"path": "pages/chatmessage/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "消息表"
+		}
+	}
+	,{
+		"path": "pages/friend/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "好友表"
+		}
+	},{
+		"path": "pages/friend/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "好友表"
+		}
+	}
+	,{
+		"path": "pages/friend/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "好友表"
+		}
+	}
+	,{
+		"path": "pages/forumtype/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛类型"
+		}
+	},{
+		"path": "pages/forumtype/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛类型"
+		}
+	}
+	,{
+		"path": "pages/forumtype/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛类型"
+		}
+	}
+	,{
+		"path": "pages/forumreport/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛举报"
+		}
+	},{
+		"path": "pages/forumreport/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛举报"
+		}
+	}
+	,{
+		"path": "pages/forumreport/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛举报"
+		}
+	}
+	,{
+		"path": "pages/newstype/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告分类"
+		}
+	},{
+		"path": "pages/newstype/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告分类"
+		}
+	}
+	,{
+		"path": "pages/newstype/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告分类"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	}
+	,{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	}
+	,{
+		"path": "pages/emailregistercode/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "邮箱验证码"
+		}
+	},{
+		"path": "pages/emailregistercode/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "邮箱验证码"
+		}
+	}
+	,{
+		"path": "pages/emailregistercode/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "邮箱验证码"
+		}
+	}
+	,{
+		"path": "pages/discussshequhuodong/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动评论表"
+		}
+	},{
+		"path": "pages/discussshequhuodong/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动评论表"
+		}
+	}
+	,{
+		"path": "pages/discussshequhuodong/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区活动评论表"
+		}
+	}
+	,{
+		"path": "pages/discusszhoubianfuwu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务评论表"
+		}
+	},{
+		"path": "pages/discusszhoubianfuwu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务评论表"
+		}
+	}
+	,{
+		"path": "pages/discusszhoubianfuwu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "周边服务评论表"
+		}
+	}
+	,{
+		"path": "pages/discusschangdixinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息评论表"
+		}
+	},{
+		"path": "pages/discusschangdixinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息评论表"
+		}
+	}
+	,{
+		"path": "pages/discusschangdixinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "场地信息评论表"
+		}
+	}
+    , {
+		"path": "pages/forum-index/forum-index",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛"
+		}
+	}, {
+		"path": "pages/forum-detail/forum-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区论坛发帖详情"
+		}
+	}, {
+		"path": "pages/forum-reply/forum-reply",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "回复评论"
+		}
+	}, {
+		"path": "pages/forum-list/list",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发布"
+		}
+	}, {
+		"path": "pages/forum-my/forum-my",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发布"
+		}
+	}, {
+		"path": "pages/forum-add-or-update/forum-add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发布"
+		}
+	}
+	, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+    , {
+        "path": "pages/map/index",
+        "style": {
+            "navigationBarBackgroundColor": "#000000",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "地图"
+        }
+    }
+    ,{
+        "path": "common/linkOthers/linkOthers",
+        "style": {
+			"navigationBarBackgroundColor": "#000000",
+			"navigationBarTextStyle": "white"
+        }
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于DDD架构的智能友好社区系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8B8B8B",
+		"selectedColor": "#000000",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+
+
+
+			,{
+			 	"pagePath": "pages/forum-index/forum-index",
+				"iconPath": "static/tabs/forum.png",
+			 	"selectedIconPath": "static/tabs/forum_act.png",
+				"text": "社区论坛"
+			}
+
+            , {
+                "pagePath": "pages/map/index",
+                "iconPath": "/static/tabs/map.png",
+                "selectedIconPath": "/static/tabs/map_act.png",
+                "text": "地图"
+            }
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

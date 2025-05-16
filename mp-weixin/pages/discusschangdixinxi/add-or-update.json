@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "场地信息评论表",
+  "usingComponents": {
+    "xia-editor": "/components/xia-editor/xia-editor",
+    "w-picker": "/components/w-picker/w-picker",
+    "multiple-select": "/components/momo-multipleSelect/momo-multipleSelect"
+  }
+}

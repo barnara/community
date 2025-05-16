@@ -1,0 +1,308 @@
+package com.entity;
+
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.lang.reflect.InvocationTargetException;
+
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.format.annotation.DateTimeFormat;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.apache.commons.beanutils.BeanUtils;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.enums.FieldFill;
+import com.baomidou.mybatisplus.enums.IdType;
+
+
+/**
+ * 居民
+ * 数据库通用操作实体类（普通增删改查）
+ * @author 
+ * @email 
+ * @date 2025-04-28 16:38:00
+ */
+@TableName("jumin")
+public class JuminEntity<T> implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+
+	public JuminEntity() {
+		
+	}
+	
+	public JuminEntity(T t) {
+		try {
+			BeanUtils.copyProperties(this, t);
+		} catch (IllegalAccessException | InvocationTargetException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * 主键id
+	 */
+    @TableId
+	private Long id;
+	/**
+	 * 居民账号
+	 */
+					
+	private String juminzhanghao;
+	
+	/**
+	 * 密码
+	 */
+					
+	private String mima;
+	
+	/**
+	 * 居民姓名
+	 */
+					
+	private String juminxingming;
+	
+	/**
+	 * 性别
+	 */
+					
+	private String xingbie;
+	
+	/**
+	 * 头像
+	 */
+					
+	private String touxiang;
+	
+	/**
+	 * 联系电话
+	 */
+					
+	private String lianxidianhua;
+	
+	/**
+	 * 身份证
+	 */
+					
+	private String shenfenzheng;
+	
+	/**
+	 * 楼宇名称
+	 */
+					
+	private String louyumingcheng;
+	
+	/**
+	 * 单元号
+	 */
+					
+	private String danyuanhao;
+	
+	/**
+	 * 车牌号
+	 */
+					
+	private String chepaihao;
+	
+	/**
+	 * 邮箱
+	 */
+					
+	private String email;
+	
+	/**
+	 * 密保问题
+	 */
+					
+	private String pquestion;
+	
+	/**
+	 * 密保答案
+	 */
+					
+	private String panswer;
+	
+	
+	@JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
+	@DateTimeFormat
+	private Date addtime;
+
+	public Date getAddtime() {
+		return addtime;
+	}
+	public void setAddtime(Date addtime) {
+		this.addtime = addtime;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	/**
+	 * 设置：居民账号
+	 */
+	public void setJuminzhanghao(String juminzhanghao) {
+		this.juminzhanghao = juminzhanghao;
+	}
+	/**
+	 * 获取：居民账号
+	 */
+	public String getJuminzhanghao() {
+		return juminzhanghao;
+	}
+	/**
+	 * 设置：密码
+	 */
+	public void setMima(String mima) {
+		this.mima = mima;
+	}
+	/**
+	 * 获取：密码
+	 */
+	public String getMima() {
+		return mima;
+	}
+	/**
+	 * 设置：居民姓名
+	 */
+	public void setJuminxingming(String juminxingming) {
+		this.juminxingming = juminxingming;
+	}
+	/**
+	 * 获取：居民姓名
+	 */
+	public String getJuminxingming() {
+		return juminxingming;
+	}
+	/**
+	 * 设置：性别
+	 */
+	public void setXingbie(String xingbie) {
+		this.xingbie = xingbie;
+	}
+	/**
+	 * 获取：性别
+	 */
+	public String getXingbie() {
+		return xingbie;
+	}
+	/**
+	 * 设置：头像
+	 */
+	public void setTouxiang(String touxiang) {
+		this.touxiang = touxiang;
+	}
+	/**
+	 * 获取：头像
+	 */
+	public String getTouxiang() {
+		return touxiang;
+	}
+	/**
+	 * 设置：联系电话
+	 */
+	public void setLianxidianhua(String lianxidianhua) {
+		this.lianxidianhua = lianxidianhua;
+	}
+	/**
+	 * 获取：联系电话
+	 */
+	public String getLianxidianhua() {
+		return lianxidianhua;
+	}
+	/**
+	 * 设置：身份证
+	 */
+	public void setShenfenzheng(String shenfenzheng) {
+		this.shenfenzheng = shenfenzheng;
+	}
+	/**
+	 * 获取：身份证
+	 */
+	public String getShenfenzheng() {
+		return shenfenzheng;
+	}
+	/**
+	 * 设置：楼宇名称
+	 */
+	public void setLouyumingcheng(String louyumingcheng) {
+		this.louyumingcheng = louyumingcheng;
+	}
+	/**
+	 * 获取：楼宇名称
+	 */
+	public String getLouyumingcheng() {
+		return louyumingcheng;
+	}
+	/**
+	 * 设置：单元号
+	 */
+	public void setDanyuanhao(String danyuanhao) {
+		this.danyuanhao = danyuanhao;
+	}
+	/**
+	 * 获取：单元号
+	 */
+	public String getDanyuanhao() {
+		return danyuanhao;
+	}
+	/**
+	 * 设置：车牌号
+	 */
+	public void setChepaihao(String chepaihao) {
+		this.chepaihao = chepaihao;
+	}
+	/**
+	 * 获取：车牌号
+	 */
+	public String getChepaihao() {
+		return chepaihao;
+	}
+	/**
+	 * 设置：邮箱
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	/**
+	 * 获取：邮箱
+	 */
+	public String getEmail() {
+		return email;
+	}
+	/**
+	 * 设置：密保问题
+	 */
+	public void setPquestion(String pquestion) {
+		this.pquestion = pquestion;
+	}
+	/**
+	 * 获取：密保问题
+	 */
+	public String getPquestion() {
+		return pquestion;
+	}
+	/**
+	 * 设置：密保答案
+	 */
+	public void setPanswer(String panswer) {
+		this.panswer = panswer;
+	}
+	/**
+	 * 获取：密保答案
+	 */
+	public String getPanswer() {
+		return panswer;
+	}
+
+}
